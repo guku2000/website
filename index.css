@@ -2,31 +2,54 @@ html{
     /*background-image: url(testbg.png);*/
     background-size:cover;
     background-repeat: no-repeat;
-    background-color: lightgrey;
+    background-color: whitesmoke;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    
     
 }
 body{
+    text-align: center;
+    align-content: center;
     border-color:white;
     background-repeat:no-repeat;
     background-size: 1000px 1080px;
 }
 div{
+    align-self: center;
+    text-align: center;
     
-    
+}
+.padding{
+    height: 70px;
+}
+.buttonsmenu {
+    padding: 5px 2.5px;
+    position: fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    background-color:rgba(4,53,91,.85);
 }
 .mainsection{
+    text-align: center;
+    align-self: center;
+    background-color:white;
+    max-width:730px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:20px;
+    border-radius: 0px;
 }
 h1{
-    background-color:white;
     font-family: 'Lato', sans-serif;
-    font-size: 50px;
-    padding-left: 20px;
-    padding-top: 5px;
-    padding-bottom:5px;
-    padding-right: 20px;
-    text-align: center;
-    width:250px
-    
+    font-weight: 400;
+    font-size: 45px;
+    padding-top: 30px;
+    margin-top: 30px;
+    margin-bottom: 5px;    
 }
 .centered{
     margin-left:auto;
@@ -65,10 +88,10 @@ img{
     
 }
 button{
-    color: white;
+    color: black;
     box-shadow: 0px 0px;
-    border-color: lightslategray;
-    background-color: lightslategray;
+    border-color: white;
+    background-color: white;
     height: auto;
     width:auto;
     padding: 20px 50px;
@@ -82,6 +105,12 @@ button{
 }
 .Abutton{
     
+    
+}
+p{
+    font-size: 18px;
+    margin-right: 20px;
+    margin-left: 20px;
     
 }
 /* Dropdown Button */
@@ -98,7 +127,7 @@ button{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: lightslategray;
+    background-color: white;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -108,13 +137,13 @@ button:hover {
     
 }
 .special:hover{
-    background-color: lightslategray;
+    background-color: white;
     
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    color: white;
+    color: black;
     padding: 20px 20px;
     font-size: 20px;
     text-decoration: none;
