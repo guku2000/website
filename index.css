@@ -43,6 +43,10 @@ div{
     padding-bottom:20px;
     border-radius: 0px;
 }
+.insection{
+    background-color:rgba(4,53,91,.85);
+    color:white;
+}
 h1{
     font-family: 'Lato', sans-serif;
     font-weight: 400;
@@ -139,6 +143,9 @@ button:hover {
 .special:hover{
     background-color: white;
     
+}
+.insection:hover{
+    background-color:rgba(4,53,91,.4);
 }
 
 /* Links inside the dropdown */
